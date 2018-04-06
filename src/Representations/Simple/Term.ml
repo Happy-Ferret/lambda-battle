@@ -78,3 +78,6 @@ module Term = struct
         end
     end
 end
+
+module Harness = struct
+end

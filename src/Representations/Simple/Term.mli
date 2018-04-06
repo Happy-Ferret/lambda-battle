@@ -12,3 +12,7 @@ module Term : sig
   val whnf : t -> t
   val nf : t -> t
 end
+
+module Harness : sig
+  include Battle.Harness
+end
