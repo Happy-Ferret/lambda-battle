@@ -14,5 +14,5 @@ module Term : sig
 end
 
 module Harness : sig
-  include Battle.Harness
+  include Shared.Battle.Harness
 end

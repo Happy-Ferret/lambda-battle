@@ -1,7 +1,7 @@
 (jbuild_version 1)
 
 (library
- ((name Battle)
+ ((name Shared)
   (flags (:standard -short-paths -strict-formats -w +a-3-4-6-9-30-32-39-41-42-44-48-60 -warn-error +a -open Base))
   (ocamlopt_flags (:standard -short-paths -strict-formats -w +a-3-4-6-9-30-32-39-41-42-44-48-60 -warn-error +a -open Base -O3 -bin-annot -principal -unbox-closures -inlining-report -rounds 6 -compact))
   (libraries (fmt menhirLib uuseg.string lwt.unix))
